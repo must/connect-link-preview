@@ -1,7 +1,7 @@
 {
   "name": "connect-platform-package-boilerplate",
   "version": "1.0.0",
-  "description": "the boilerplate project for CONNECT platform packages.",
+  "description": "Link preview packege for CONNECT platform.",
   "main": ".",
   "scripts": {
     "start": "nodemon app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loreanvictor/connect-platform-package-boilerplate.git"
+    "url": "git+https://github.com/must/connect-link-preview.git"
   },
-  "author": "Eugene Ghanizadeh Khoub <ghanizadeh.eugene@gmail.com>",
+  "author": "Mustapha Ben Chaaben <mustapha@connect-platform.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/loreanvictor/connect-platform-package-boilerplate/issues"
+    "url": "https://github.com/must/connect-link-preview/issues"
   },
-  "homepage": "https://github.com/loreanvictor/connect-platform-package-boilerplate#readme",
+  "homepage": "https://github.com/must/connect-link-preview#readme",
   "peerDependencies": {
     "connect-platform": "*"
   },
