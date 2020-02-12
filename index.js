@@ -32,7 +32,7 @@ module.exports.platform = {
        * package, without the extension.
        *
        */
-      native : ['hellow']
+      native : ['linkPreview']
     },
     /**
      *
@@ -43,7 +43,6 @@ module.exports.platform = {
      *
      */
     aliases: {
-      '/test/hellow': '/test-package/hellow',
     }
   }
 }
