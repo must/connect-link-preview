@@ -41,7 +41,8 @@ platform.core.node({
      *
      */
     outputs: {
-      data: 'the parsed metadata of the website with <span class="hl-blue">url</span>.'
+      data: 'the parsed metadata of the website with <span class="hl-blue">url</span>.',
+      error: 'the error if one has occured'
     },
 
     /**
@@ -66,10 +67,11 @@ platform.core.node({
    */
   (inputs, output, control) => {
     getLinkPreview(inputs.url)
-    .then(
-      (data) => {
-        output('data', data);
-      }
-    );
+    .then((data) => {
+      output('data', data);
+    })
+    .catch((error) => {
+      output('error', error);
+    });
   }
 );
